@@ -1,0 +1,15 @@
+== Classifier-PHP
+
+PHP port of Ruby classifier library.
+
+See: http://github.com/xaviershay/classifier
+
+
+== Example
+
+$b = new Bayes('spam', 'ham');
+$b->train('spam', 'omg lol this is spam viagra !! $$');
+$b->train('ham', 'Hi Bob, I just wanted to say hello');
+
+echo $b->classify('hello bob');
+echo $b->classify('is this spam?');
