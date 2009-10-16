@@ -4,7 +4,7 @@ require_once 'stemmer.php';
 
 /**
  * PHP version of Ruby Bayes classifier library
- * @see http://github.com/xaviershay/classifier
+ * @see http://rubyforge.org/projects/classifier
  */
 class Bayes
 {
